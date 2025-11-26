@@ -5,10 +5,10 @@
 GitHubからダウンロードしたファイルを、自分のPCの以下の場所に配置してください。
 
 1. プログラムの配置<br>
-   GitHubの`src`フォルダ内にある`evaluate_model.py`を、自分のPCの`b3_practice2/src/`に入れてください。
+   `evaluate_model.py`を、`b3_practice2/src/`の直下に入れてください。
 
 2. バッチファイルの配置<br>
-   `3_evaluate_model.bat`を、`b3_practice2`フォルダの直下に入れてください。
+   `3_evaluate_model.bat`を、`b3_practice2/`の直下に入れてください。
 
 > 配置後のフォルダ構成イメージ
 > ```text
@@ -22,7 +22,7 @@ GitHubからダウンロードしたファイルを、自分のPCの以下の場
 >       └── evaluate_model.py  <-- ここに配置
 > ```
 
-## 設定（バッチファイルの書き換え）
+## 設定
 ダウンロードした`3_evaluate_model.bat`をそのまま実行するとエラーになるため、自分の環境に合わせて書き換える必要があります。
 
 1. `3_evaluate_model.bat`を右クリックして「メモ帳で編集」を選びます。
@@ -37,7 +37,7 @@ GitHubからダウンロードしたファイルを、自分のPCの以下の場
    call C:\Users\tanaka\anaconda3\Scripts\activate.bat keras_env_loo
    ```
 
-## 使い方（実行手順）
+## 使い方
 このツールは、モデルの学習・予測が終わった後に使用します。必ず以下の順番で実行してください。
 
 1. 学習・予測を実行する<br>
