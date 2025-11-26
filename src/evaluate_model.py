@@ -1,10 +1,3 @@
-"""
-評価指標算出スクリプト
-学習データ(b3_practice2/train_data.csv)と、
-モデルの出力結果(b3_practice2/target/result.csv)を比較し、
-混同行列、正解率、適合率、再現率、F1値を出力する。
-"""
-
 import pandas as pd
 from sklearn.metrics import (
     confusion_matrix,
